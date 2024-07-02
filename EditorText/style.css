@@ -1,0 +1,75 @@
+@charset "UTF-8";
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    background-color: #f8f9fa;
+}
+
+.container{
+    background-color: rgb(255, 255, 255);
+    margin: 0 0 20px 0;
+}
+.Name{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 40px 0 0 10px;
+}
+#Title{
+    height: 46px;
+    width: 263px;
+    position: absolute;
+    background-color: transparent;
+    font-size: 25px;
+    border: none;
+    
+}
+#Title:hover{
+    border-width: 2px;
+    border-style: inset;
+    border-color: -internal-light-dark(rgb(118, 118, 118), rgb(133, 133, 133));
+    border-image: initial;
+}
+
+#Types{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+button{
+    width: 50px;
+    display: inline-flex;
+    outline: none;
+    height: 39px;
+    background-color: transparent;
+    border: transparent;
+    cursor: pointer;
+}
+.fa{
+    font-size: 15px;
+    width: 50px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+i{outline: none;}
+
+/*Parte Escrita*/
+.WriteSpace{
+   display: flex;
+   justify-content: center;
+}
+#Write{
+    width: 50%;
+    white-space: normal;
+    padding: 20px;
+    height: 768px;
+    border-radius: 0px;
+    
+}
